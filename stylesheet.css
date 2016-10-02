@@ -1,0 +1,103 @@
+
+element {
+	width: 300px;
+}
+
+.container {
+	text-align: center;
+
+}
+
+.navbar {
+	text-align:right;
+}
+
+.navbar div{
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	padding: 10px;
+}
+
+a:hover {
+	color:black;
+	text-decoration: underline;
+}
+
+button{
+	padding: 8px 12px;
+	margin:5px;
+	border-radius: 5px;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+	border: none;
+}
+
+button:hover {
+	background: red;
+}
+
+#options {
+	vertical-align: middle;
+}
+  
+.google {
+	width: 600px;
+	position: relative;
+	top: 150px;
+}
+        
+form {
+	position: relative;
+}
+#searchQuery {
+	top: 80px;
+	padding: 5px 10%;
+	display:block;
+	margin:0 auto;
+	position: relative;
+}          
+
+.submit {
+	top:100px;
+	padding:10px 20px;
+	position: relative;
+	border:none;
+	cursor:pointer;
+	margin:5px;
+}
+
+.submit:hover {
+	border: 1px solid black;
+}
+
+.footer{
+	position: absolute;
+	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+  	background-color: #efefef;
+}
+
+.right{
+	float: right;
+}
+
+.left{
+	float:left;
+}
+
+a{
+	color:grey;
+}
+
+.right a:hover{
+	color:red;
+}
+
+
+
